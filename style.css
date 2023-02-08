@@ -162,27 +162,6 @@ body {
 }
 
 @media screen and (max-width: 620px) {
-    .cabecalho {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .cabecalho-imagem {
-        margin: 0;
-    }
-
-    .conteudo-principal {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .conteudo-principal-imagem {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
     .conteudo-principal-texto {
         max-width: 500px;
     }
