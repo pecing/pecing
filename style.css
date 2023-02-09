@@ -143,19 +143,51 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .cabecalho-titulo {
         text-align: center;
     }
 
+    .cabecalho-menu-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .cabecalho-imagem {
+        display: flex;
+        align-items: center;
         margin: 0;
     }
 
     .conteudo-principal {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding: 0;
     }
 
+    .conteudo-principal-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+        width: 400px;
+    }
+
+
     .conteudo-principal-imagem {
+        margin-right: 0;
+        margin-left: 0;
         margin-top: 40px;
         margin-bottom: 40px;
     }
