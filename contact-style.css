@@ -92,6 +92,7 @@ body {
     background-color: #353535;
     border-radius: 20px;
     width: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -111,9 +112,10 @@ body {
 }
 
 .conteudo-principal-texto-titulo {
-    font-family: var(--fonte-padrao);
+    font-family: JejuGothic;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 .rodape {
