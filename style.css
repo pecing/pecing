@@ -54,14 +54,13 @@ body {
 }
 
 .cabecalho-titulo {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+    position: relative;
+    top: auto;
+    left: 80px;
     font-family: var(--fonte-cab);
     font-weight: 400;
     font-size: 92px;
     text-transform: uppercase;
-    text-align: left;
 }
 
 .cabecalho-imagem {
@@ -69,7 +68,6 @@ body {
     width: 125.49px;
     height: 120px;
     border-radius: 12px;
-    margin-right: 162px;
 }
 
 .cabecalho-menu {
@@ -145,7 +143,7 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1248px) {
     .cabecalho {
         display: flex;
         flex-direction: column;
@@ -157,6 +155,7 @@ body {
     }
 
     .cabecalho-titulo {
+        position: inherit;
         text-align: center;
     }
 
